@@ -8,4 +8,6 @@ Visual Studio 2017 and Visual Studio 2019 are able to build the project after th
 
 Notes:
 
-- This is a hard bug to demonstrate, still trying various things to make it happen.  We know it happens in our private repos, but those can't be shared.
+- bae6adb9cb4d5be178f38d94edd13ef95fceaf97 will compile under VS 2017, VS 2019 and Rider 2019.2
+- The next commit 6793cf7b0c242dc621e7956b8522441ee0ac90f2 after converting the test project to PackageReferences, will not compile under Rider 2019.2, but still compiles under VS 2017 and VS 2019.
+
